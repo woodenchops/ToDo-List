@@ -1,0 +1,234 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, 
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#list_item_counter {
+    padding: 10px 0;
+    margin: 0;
+    color: orange;
+    text-align: center;
+}
+
+.tdl_header {
+    color: orange;
+    padding: 0;
+    padding-left: 15px;
+    margin: 0;
+    background-color: #56ab2f;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+p,
+ul,
+ol,
+h1,
+label{
+    font-family: sans-serif;
+}
+
+input#inputBox {
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    width: calc(100% - 100px);
+}
+
+ul, 
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+
+
+#button {
+   background-color: #68d468;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-left: 0;
+    font-size: 14px;
+    border: none;
+}
+
+.remove,
+.edit,
+.save {
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 30px;
+    float: right;
+    margin-right: 15px;
+    padding: 10px;
+    width: 80px;
+    font-size: 14px;
+    -webkit-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.remove:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.edit:hover {
+    background-color: lightgreen;
+    color: #fff;
+}
+
+.save:hover {
+    background-color: mediumpurple;
+    color: #fff;
+}
+
+.checkbox {
+    margin-right: 0;
+}
+
+.complete {
+    background-color: lightgreen;
+    
+    border: 2px solid #fff;
+    color: #fff;
+}
+ li.complete span {
+    color: #fff;
+}
+
+
+li.complete button {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+li.complete .edit:hover {
+    background: #fff;
+    color: lightgreen;
+}
+
+
+ul li {
+    
+    -webkit-transition: .4s;
+    
+    transition: .4s;
+    border: 1px solid #fff;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    
+}
+
+span {
+    margin-right: auto;
+    margin-left: 15px;
+    color: orange;
+}
+
+input {
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+input[type="text"].editTextInput {
+    background: none;
+    border: 1px dashed lightgray;
+    outline: none;
+    color: orange;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.tasksLeft,
+.toggleList {
+    background: transparent;
+    width: 150px;
+    padding: 9px;
+    text-align: center;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 20px;
+    display: block;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+
+.toggleList {
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.tasksLeft {
+    margin: 0 auto;
+    font-size: 14px;
+    width: 190px;
+}
+
+.tasksLeft:hover,
+.toggleList:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.tdl_header {
+    color: #fff;
+    background-color: lightgreen;
+}
+
+li:hover {
+    border-left: 10px solid lightgreen;
+} 
+
+@media screen and (min-width: 670px) {
+
+
+div {
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 10px;
+    box-shadow: 0px 10px 10px 0px rgba(117,122,130,1);
+}
+
+}
+
+
+
+
